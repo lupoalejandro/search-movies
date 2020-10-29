@@ -1,0 +1,35 @@
+.movieContainer {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid;
+  height: 150px;
+}
+
+.movieImage {
+  height: 100%;
+}
+
+.info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid;
+}
+
+.overview {
+  flex: 1;
+  height: 85px;
+  padding: 10px;
+  margin: 0px;
+  border: 1px solid;
+  overflow: scroll;
+}

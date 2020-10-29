@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.container {
+  width: 800px;
+}
+
+.button {
+  border: 1px solid;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+
+.searchBar {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.inputSearch {
+  flex: 1;
+  margin-right: 15px;
+  height: 30px;
+  border: 1px solid;
+  outline: none;
+}
